@@ -3,7 +3,7 @@ const localize = (stringId, data={}) => {
 };
 
 const formField = (field, options) => {
-	return HandlebarsHelpers.formField(field, options);
+	return HandlebarsHelpers.formGroup(field, options);
 }
 
 export { localize, formField };
